@@ -71,7 +71,7 @@ application/json  {“userId”: “test”, “serviceName”: “svc”}
 ```
 
 ## 2. OTP APP 다운로드 
-OTP APP을 다운로드 합니다.
+OTP APP을 다운로드합니다.
 
 - For Android, iOS, and Blackberry: 
 	<a href="https://support.google.com/accounts/answer/1066447?hl=en" target="_blank">
@@ -86,19 +86,21 @@ OTP APP을 다운로드 합니다.
 		<font class="custom-link">Authenticator</font>
 	</a>
 
-## 3. QR 코드 스캔 또는 OTP APP 에 인증 키 정보 입력 
-OTP APP을 통해 QR 코드를 스캔합니다.
-- OTP 인증 키를 획득하면서 얻은 QR코드 값을 Base64 decoding 하여 이미지로 출력합니다.
-- 이미지로 출력된 QR 코드를 스캔합니다.
-- QR 코드를 스캔하면, 인증 키가 자동으로 입력된 채 OTP APP이 실행됩니다.
+## 3. OTP APP에 인증 키 정보 입력 
+OTP APP을 실행한 후, OTP 인증 키 정보를 입력합니다.
 
-또는 OTP APP을 실행한 후, OTP 인증 키 정보를 입력합니다.
+```
+* 참고 : OR 코드 스캔하여 OTP APP을 실행하는 방법
+	- OTP 인증 키를 획득하면서 얻은 QR코드 값을 Base64 decoding 하여 이미지로 출력합니다.
+	- 이미지로 출력된 QR 코드를 스캔합니다.
+	- QR 코드를 스캔하면, 인증 키가 자동으로 입력된 채 OTP APP이 실행됩니다.
+```
 				
 ## 4. OTP 인증 코드 획득
-OTP APP 에서 OTP CODE 값을 획득 합니다.
+OTP APP 에서 OTP CODE 값을 획득합니다.
 
 ## 5. OTP 인증 코드 확인
-아래 API를 호출하여 OTP 인증 코드를 확인 합니다.
+아래 API를 호출하여 OTP 인증 코드를 확인합니다.
 
 [URL]
 
