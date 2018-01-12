@@ -1,6 +1,6 @@
-## Security > OTP > Error Code
+## Security > OTP > 오류 코드
 
-에러 코드는 다음과 같습니다.
+오류 코드는 다음과 같습니다.
 
 |Code|	설명|
 |---|---|
