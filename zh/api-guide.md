@@ -7,7 +7,7 @@ Console에서 OTP 서비스를 활성화 한 후 다음과 같은 API 호출을 
 
 모든 API 요청에 ‘200 OK’로 응답합니다. 자세한 응답 결과는 응답 본문의 헤더를 참고합니다.
 
-#### 응답 본문
+[응답 본문]
 
 ```
 {
@@ -19,7 +19,7 @@ Console에서 OTP 서비스를 활성화 한 후 다음과 같은 API 호출을 
 }
 ```
 
-#### 필드
+[필드]
 
 |이름|	자료형|	설명|
 |---|---|---|
@@ -34,26 +34,26 @@ Console에서 OTP 서비스를 활성화 한 후 다음과 같은 API 호출을 
 
 ### 요청
 
-#### URI
+[URI]
 
 |메서드|	URI|
 |---|---|
 |POST|	https://api-otp.cloud.toast.com/otp/v1.0/appkeys/{appKey}/keys|
 
-#### 요청 헤더
+[요청 헤더]
 
 |이름|	자료형|	설명|
 |---|---|---|
 |appkey|	String|	OTP AppKey|
 
-#### 요청 본문
+[요청 본문]
 
 ```
 URL      https://api-otp.cloud.toast.com/otp/v1.0/appkeys/ad89539d41c8363a987034b6c84c962cd8c813c9d6de35ec6b6afbee697aaa7a/keys
 application/json  {“userId”: “test”, “serviceName”: “svc”}
 ```
 
-#### 필드
+[필드]
 
 |이름|	자료형|	설명|
 |---|---|---|
@@ -62,7 +62,7 @@ application/json  {“userId”: “test”, “serviceName”: “svc”}
 
 ### 응답
 
-#### 응답 본문
+[응답 본문]
 
 ```
 {
@@ -78,7 +78,7 @@ application/json  {“userId”: “test”, “serviceName”: “svc”}
 }
 ```
 
-#### 필드
+[필드]
 
 |이름|	자료형|	설명|
 |---|---|---|
@@ -115,27 +115,27 @@ OTP APP 에서 OTP CODE 값을 획득합니다.
 
 ### 요청
 
-#### URI
+[URI]
 
 |메서드|	URI|
 |---|---|
 |GET|	https://api-otp.cloud.toast.com/otp/v1.0/appkeys/{appKey}/codes/{code}/verification?userId={userId}&encodedKey={encodedKey}|
 
 
-#### 요청 헤더
+[요청 헤더]
 
 |이름|	자료형|	설명|
 |---|---|---|
 |appkey|	String|	OTP AppKey|
 |code|	String|	Mobile OTP 앱을 통해 얻은 OTP 인증 코드|
 
-#### 요청 본문
+[요청 본문]
 
 ```
 URL otp/v1.0/appkeys/ad89539d41c8363a987034b6c84c962cd8c813c9d6de35ec6b6afbee697aaa7a/codes/269935/verification?userId=test&encodedKey=YUI5RSM2QNNRNJ7C
 ```
 
-#### 필드
+[필드]
 
 |이름|	자료형|	설명|
 |---|---|---|
