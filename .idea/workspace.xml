@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084e1853-22e5-4837-b84c-2bbbaf19dffe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/api-guide.md" afterPath="$PROJECT_DIR$/en/api-guide.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ja/api-guide.md" afterPath="$PROJECT_DIR$/ja/api-guide.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ko/api-guide.md" afterPath="$PROJECT_DIR$/ko/api-guide.md" />
@@ -84,12 +85,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api-guide.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api-guide.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ko/api-guide.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="135">
-                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -102,7 +103,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="135">
-                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+                <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -110,12 +111,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api-guide.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api-guide.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/api-guide.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="645">
-                <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+              <first_editor relative-caret-position="342">
+                <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -128,7 +129,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="514">
-                <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+                <caret line="117" column="8" lean-forward="false" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -156,33 +157,33 @@
       <find>Path Parameter</find>
       <find>Example Request</find>
       <find>Response body</find>
-      <find>[응답 본문]</find>
-      <find>[필드]</find>
-      <find>[URI]</find>
-      <find>[요청 헤더]</find>
-      <find>[요청 본문]</find>
       <find>#### 응답 본문</find>
       <find>#### 필드</find>
       <find>#### 요청 헤더</find>
       <find>#### 요청 본문</find>
       <find>#### URI</find>
       <find>####</find>
+      <find>[응답 본문]</find>
+      <find>[필드]</find>
+      <find>[URI]</find>
+      <find>[요청 헤더]</find>
+      <find>[요청 본문]</find>
     </findStrings>
     <replaceStrings>
       <replace>요청 헤더</replace>
       <replace>요청 본문</replace>
       <replace>필드</replace>
       <replace>##</replace>
-      <replace>#### 응답 본문</replace>
-      <replace>#### 필드</replace>
-      <replace>#### URI</replace>
-      <replace>#### 요청 헤더</replace>
-      <replace>#### 요청 본문</replace>
       <replace>[응답 본문]</replace>
       <replace>[필드]</replace>
       <replace>[요청 헤더]</replace>
       <replace>[요청 본문]</replace>
       <replace>[URI]</replace>
+      <replace>#### 응답 본문</replace>
+      <replace>#### 필드</replace>
+      <replace>#### URI</replace>
+      <replace>#### 요청 헤더</replace>
+      <replace>#### 요청 본문</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -204,9 +205,9 @@
         <option value="$PROJECT_DIR$/en/Overview.md" />
         <option value="$PROJECT_DIR$/ja/Overview.md" />
         <option value="$PROJECT_DIR$/zh/Overview.md" />
-        <option value="$PROJECT_DIR$/ko/api-guide.md" />
         <option value="$PROJECT_DIR$/ja/api-guide.md" />
         <option value="$PROJECT_DIR$/zh/api-guide.md" />
+        <option value="$PROJECT_DIR$/ko/api-guide.md" />
         <option value="$PROJECT_DIR$/en/api-guide.md" />
       </list>
     </option>
@@ -217,7 +218,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-105" />
     <option name="y" value="-1200" />
     <option name="width" value="1920" />
@@ -412,16 +413,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515717370230</updated>
-      <workItem from="1515717372274" duration="5705000" />
+      <workItem from="1515717372274" duration="7275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5705000" />
+    <option name="totallyTimeSpent" value="7275000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-105" y="-1200" width="1920" height="1200" extended-state="0" />
-    <editor active="true" />
+    <frame x="-105" y="-1200" width="1920" height="1200" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -435,7 +435,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -632,18 +632,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="514">
-            <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ko/api-guide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+            <caret line="117" column="8" lean-forward="false" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
@@ -654,7 +643,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="135">
-            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
+            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
@@ -664,8 +653,19 @@
     <entry file="file://$PROJECT_DIR$/en/api-guide.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="645">
-            <caret line="64" column="7" lean-forward="true" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+          <first_editor relative-caret-position="342">
+            <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ko/api-guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="10" />
             <folding />
           </first_editor>
           <second_editor />
