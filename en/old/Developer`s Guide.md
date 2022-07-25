@@ -14,7 +14,7 @@ Console에서 OTP 서비스를 활성화 한 후 다음과 같은 API 호출을 
 [URL]
 
 ```
-POST   https://api-otp.cloud.toast.com/otp/v1.0/appkeys/{appKey}/keys
+POST   https://kr1-otp.api.nhncloudservice.com/otp/v1.0/appkeys/{appKey}/keys
 Content-Type  application/json
 ```
 
@@ -50,7 +50,7 @@ Content-Type  application/json
 [Example Request]
 
 ```
-URL      https://api-otp.cloud.toast.com/otp/v1.0/appkeys/ad89539d41c8363a987034b6c84c962cd8c813c9d6de35ec6b6afbee697aaa7a/keys
+URL      https://kr1-otp.api.nhncloudservice.com/otp/v1.0/appkeys/ad89539d41c8363a987034b6c84c962cd8c813c9d6de35ec6b6afbee697aaa7a/keys
 application/json  {“userId”: “test”, “serviceName”: “svc”}
 ```
 
@@ -105,7 +105,7 @@ OTP APP 에서 OTP CODE 값을 획득합니다.
 [URL]
 
 ```
-GET        https://api-otp.cloud.toast.com/otp/v1.0/appkeys/{appKey}/codes/{code}/verification?userId={userId}&encodedKey={encodedKey}
+GET        https://kr1-otp.api.nhncloudservice.com/otp/v1.0/appkeys/{appKey}/codes/{code}/verification?userId={userId}&encodedKey={encodedKey}
 ```
 
 [Path Parameter]

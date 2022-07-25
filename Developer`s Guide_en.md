@@ -13,7 +13,7 @@ Issue OTP Authentication Key and QR Code
 
 \[URL\]
 
-    POST   https://api-otp.cloud.toast.com/otp/v1.0/appkeys/{appKey}/keys
+    POST   https://kr1-otp.api.nhncloudservice.com/otp/v1.0/appkeys/{appKey}/keys
     Content-Type application/json
 
 \[Path Parameter\]
@@ -31,7 +31,7 @@ Issue OTP Authentication Key and QR Code
 
 \[Example Request\]
 
-    URL      https://api-otp.cloud.toast.com/otp/v1.0/appkeys/ad89539d41c8363a987034b6c84c962cd8c813c9d6de35ec6b6afbee697aaa7a/keys
+    URL      https://kr1-otp.api.nhncloudservice.com/otp/v1.0/appkeys/ad89539d41c8363a987034b6c84c962cd8c813c9d6de35ec6b6afbee697aaa7a/keys
     application/json {“userId”: “test”, “serviceName”: “svc”}
 
 \[Example Response\]
@@ -53,7 +53,7 @@ Verify OTP Authentication Code
 
 \[URL\]
 
-    GET        https://api-otp.cloud.toast.com/otp/v1.0/appkeys/{appKey}/codes/{code}/verification?userId={userId}&encodedKey={encodedKey}
+    GET        https://kr1-otp.api.nhncloudservice.com/otp/v1.0/appkeys/{appKey}/codes/{code}/verification?userId={userId}&encodedKey={encodedKey}
 
 \[Path Parameter\]
 
